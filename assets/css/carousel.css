@@ -84,7 +84,9 @@
         .donor-card {
             flex-shrink: 0;
             padding: 20px 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: 0.7rem solid;
+            border-image: linear-gradient(105deg, #8b6914 0%, #f5d060 35%, #c9a84c 60%, #8b6914 100%) 1;
+            background: linear-gradient(105deg, #7c3333 0%, #601414 35%, #600b0b 60%, #713939 100%);
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -97,11 +99,12 @@
 
         .donor-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 20px rgba(26, 31, 58, 0.6);
+            background-color: #aa0000; 
         }
 
         .donor-name {
-            color: white;
+            color: #ffeaac;
             font-size: 1.1em;
             font-weight: 600;
             text-align: center;
